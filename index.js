@@ -23,3 +23,4 @@ function createDriver() {
     }
   }
 }
+const Driver = createDriver();
