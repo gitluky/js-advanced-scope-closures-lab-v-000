@@ -8,3 +8,11 @@ function produceDrivingRange (blocks) {
     }
   }
 }
+
+function produceTipCalculator (percentage) {
+  return function (bill) {
+    return bill * percentage;
+  }
+}
+
+
